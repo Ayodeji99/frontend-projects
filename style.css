@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+
+}
+/* 
+
+
+
+
+.box1, .box2, .box3 {
+    max-width: 60rem;
+    height: 30rem;
+    border: 2px solid black;
+    margin: 1rem;
+    font-size: 2.8rem;
+}
+
+.box2 {
+    float: right;
+}
+
+.box1 {
+    float: left;
+}
+
+.clear {
+    clear: both;
+
+} */
+
+.clear {
+    clear: both;
+}
+
+h1 {
+    font-size: 2.8rem;
+
+}
+
+h2 {
+    font-size: 3.6rem;
+    padding: 5rem 0rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+ a {
+     color: white;
+     text-decoration: none;
+     font-size: 2.4rem;
+     
+ }
+
+ button {
+     font-size: 1.8rem;
+ }
+
+ nav {
+     background: rgb(61, 81, 102);
+     color: white;
+     padding: 3rem;
+ }
+
+ nav h1 {
+     float: left;
+ }
+
+nav ul {
+    float: right;
+    list-style: none;
+} 
+
+nav li {
+    float: left;
+    margin: 0rem 4rem;
+}
+
+.hero-section {
+    background-image: url(images/pexels-dana-tentis-750073.jpg);
+    height: 80rem;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding-top: 15rem;
+    text-shadow: 3px 3px 3px black ;
+}
+
+.hero-section button {
+    padding: 2rem 4rem;
+    margin-top: 4rem;
+    background: rgb(53, 120, 190);
+    border: none;
+    color: white;
+    border-radius: 1.2rem;
+    cursor: pointer;
+}
+
+.form-section{
+    text-align: center;
+}
+
+form {
+
+}
+
+form input, form label, form textarea {
+    display: block;
+    font-size: 2.4rem;
+    
+}
+
+form input, form textarea {
+    margin:2rem auto;
+    width: 50%;
+}
+
+form button {
+    margin-bottom: 10rem;
+    padding: 2rem 4rem;
+    margin-top: 4rem;
+    background: rgb(53, 120, 190);
+    border: none;
+    color: white;
+    border-radius: 1.2rem;
+    cursor: pointer;
+    width: 50%;
+}
